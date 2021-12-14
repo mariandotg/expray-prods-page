@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Button from "../components/Button";
 import { Paragraph } from "../components/Paragraph";
+import { Section } from "../components/Section";
 import { SectionTitle } from "../components/SectionTitle";
 
 export default function Home() {
@@ -23,17 +24,7 @@ export default function Home() {
           gap: "32px",
         }}
       >
-        <div
-          style={{
-            width: "100%",
-            padding: "0 16px",
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-            gap: "16px",
-          }}
-        >
+        <Section>
           <SectionTitle>Animación y conducción de eventos</SectionTitle>
           <Paragraph>
             Organizamos bailes en clubes, para el día del amigo, día la
@@ -56,18 +47,8 @@ export default function Home() {
             específico. Para eso te brindamos nuestra capacidad de musicalizar
             lo especial.
           </Paragraph>
-        </div>
-        <div
-          style={{
-            width: "100%",
-            padding: "0 16px",
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-            gap: "16px",
-          }}
-        >
+        </Section>
+        <Section>
           <SectionTitle>Cenas show</SectionTitle>
           <Paragraph>
             Los sábados por la noche y en distintos Restaurantes, Pubs, etc. Y
@@ -79,18 +60,8 @@ export default function Home() {
             personalidades de nuestro municipio.
           </Paragraph>
           <Button>más info</Button>
-        </div>
-        <div
-          style={{
-            width: "100%",
-            padding: "0 16px",
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-            gap: "16px",
-          }}
-        >
+        </Section>
+        <Section>
           <SectionTitle>
             Cumpleaños – Casamientos – Despedidas de Fin de Año
           </SectionTitle>
@@ -101,18 +72,8 @@ export default function Home() {
             filmaciones.
           </Paragraph>
           <Button>más info</Button>
-        </div>
-        <div
-          style={{
-            width: "100%",
-            padding: "0 16px",
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-            gap: "16px",
-          }}
-        >
+        </Section>
+        <Section>
           <SectionTitle>La Fiesta del Recuerdo</SectionTitle>
           <Paragraph>
             Si tenes mas de 50 años, y queres hacer una fiesta, celebrar un
@@ -121,7 +82,7 @@ export default function Home() {
             también, sabemos entretener como en aquella época dorada.
           </Paragraph>
           <Button>más info</Button>
-        </div>
+        </Section>
       </main>
 
       <footer>
